@@ -1,0 +1,330 @@
+/* ========================common css========================= */
+.font-style {
+  font-family: "Montserrat", sans-serif;
+}
+/* =============================== */
+.font-th {
+  font-weight: 100;
+}
+.font-t25 {
+  font-size: 25.39px;
+}
+/* ================================ */
+.font-li {
+  font-weight: 300;
+}
+.font-l31 {
+  font-size: 30.61px;
+}
+/* ================================ */
+.font-r {
+  font-weight: 400;
+}
+.font-r23 {
+  font-size: 23.7px;
+}
+.font-r28 {
+  font-size: 28.33px;
+}
+.font-r30 {
+  font-size: 30px;
+}
+/* ================================ */
+.font-m {
+  font-weight: 500;
+}
+.font-m15 {
+  font-size: 15.33px;
+}
+.font-m19 {
+  font-size: 19.39px;
+}
+.font-m21 {
+  font-size: 21.5px;
+}
+.font-m22 {
+  font-size: 22.87px;
+}
+.font-m23 {
+  font-size: 23.29px;
+}
+.font-m37 {
+  font-size: 37.85px;
+}
+.font-m46 {
+  font-size: 46.43px;
+}
+/* ================================ */
+.font-sm {
+  font-weight: 600;
+}
+.font-sm16 {
+  font-size: 16.76px;
+}
+.font-sm17 {
+  font-size: 17.83px;
+}
+.font-sm18 {
+  font-size: 18.13px;
+}
+.font-sm18-2 {
+  font-size: 18.15px;
+}
+.font-sm24 {
+  font-size: 24.79px;
+}
+.font-sm30 {
+  font-size: 30.68px;
+}
+.font-sm34 {
+  font-size: 34.14px;
+}
+.font-sm36 {
+  font-size: 36.6px;
+}
+.font-sm46 {
+  font-size: 46.1px;
+}
+/* ================================ */
+.font-b {
+  font-weight: 700;
+}
+.font-b23 {
+  font-size: 23.59px;
+}
+.font-b42 {
+  font-size: 42.35px;
+}
+/* ===============================font end=========================== */
+u {
+  color: #28a745;
+}
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 1440px !important;
+}
+/* ======================================== */
+.header_image {
+  background-image: url(../Images/header_img.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 255px;
+  width: auto;
+}
+
+/* ================================navbar css======================================== */
+nav {
+  background-color: #fff;
+  width: 100%;
+  padding: 40px 0px !important;
+}
+nav ul {
+  column-gap: 40px;
+}
+nav ul li a {
+  color: #000000 !important;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+nav ul li a:hover {
+  color: pink !important;
+}
+/* ================================navbar css============================================== */
+/* =================================banner css============================================= */
+.banner {
+  background-image: url(../Images/banner_img.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.banner_overlay {
+  background-color: rgb(40, 167, 69, 18%);
+}
+.banner_overlay2 {
+  background-color: rgb(4, 4, 4, 30%);
+}
+.banner_heading h1 {
+  color: #fff;
+  text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+  width: 937px;
+  margin: auto;
+  text-align: center;
+  padding-top: 181px;
+  margin-bottom: 45px;
+}
+.banner_btn {
+  padding: 15px 44px;
+  background-color: #28a745;
+  border-radius: 7px;
+  margin: auto;
+  width: 236px;
+  margin-bottom: 147px;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -ms-border-radius: 7px;
+  -o-border-radius: 7px;
+}
+
+.banner_arrow_left a i {
+  position: absolute;
+  top: -120px;
+  left: -50px;
+}
+.banner_arrow_right a i {
+  position: absolute;
+  top: -120px;
+  left: 1315px;
+}
+
+.banner_arrow a {
+  font-size: 30px;
+  stroke-width: 6px;
+  color: #fff;
+  stroke: #fff;
+  filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.12));
+}
+
+.banner_btn a {
+  color: #fff;
+  text-align: center;
+}
+/* =================================banner css============================================= */
+/* =================================headline css============================================= */
+.headline_green {
+  width: 234px;
+  height: 74px;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  border-radius: 0px 0px 5px 5px;
+  background: #28a745;
+  padding-top: 0px;
+}
+.headline_info {
+  display: flex;
+  margin-bottom: 38px;
+}
+.headline_info h2 {
+  padding: 22px 0px;
+}
+
+/* =================================headline css============================================= */
+/* =================================about us css============================================= */
+.about_us_title {
+  width: 332px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.about_us_title h3 {
+  text-align: center;
+  color: #28a745;
+}
+.about_us_btn {
+  background-color: #28a745;
+  width: 116px;
+  margin: auto;
+  padding: 5px 14px;
+  text-align: center;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.about_us_btn a {
+  color: #fff;
+}
+.about_us_info {
+  width: 1268px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+.about_us_info p {
+  color: #28a745;
+  line-height: 277.9%;
+  margin-bottom: 35px;
+}
+/* =================================about us css============================================= */
+/* =================================our features css============================================= */
+.features_title h4 {
+  color: #28a745;
+  width: 251px;
+  line-height: 102%;
+  margin: auto;
+  margin-bottom: 34px;
+}
+.line {
+  background: #28a745;
+  width: 139px;
+  height: 2px;
+  margin: auto;
+  margin-bottom: 80px;
+}
+.features_custom_card {
+  background-color: #fff;
+  border-radius: 14.146px;
+  box-shadow: 0px 0px 26.62688446044922px 0px rgba(0, 0, 0, 0.12);
+  width: 349px;
+  padding: 45px 20px 30px 20px;
+  position: relative;
+  -webkit-border-radius: 14.146px;
+  -moz-border-radius: 14.146px;
+  -ms-border-radius: 14.146px;
+  -o-border-radius: 14.146px;
+}
+.features_custom_card h5 {
+  width: 210px;
+  margin: auto;
+  margin-bottom: 24px;
+  text-align: center;
+}
+.features_custom_card p {
+  width: 300px;
+  margin: auto;
+  text-align: center;
+  line-height: 200.9%;
+  letter-spacing: -0.383px;
+}
+
+/* .icon_bg {
+  height: 126px;
+  width: 125px;
+  line-height: 125px;
+  margin: auto;
+  background-color: #fff;
+  filter: drop-shadow(
+    0px 0.7182409763336182px 5.745927810668945px rgba(0, 0, 0, 0.25)
+  );
+  margin-bottom: 25px;
+  position: absolute;
+  top: -115px;
+  left: 0px;
+  border-radius: 50%;
+  position: relative;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.icon_bg picture img {
+  position: absolute;
+  left: 25px;
+  top: 25px;
+} */
+
+/* =================================our features css============================================= */
